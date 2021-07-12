@@ -2,7 +2,7 @@ import requests
 from requests import post
 
 # 腾讯Cookie,
-tx_cookie = 'pgv_pvid=6036319171; _ga=GA1.2.1783440562.1617659868; RK=P2xsmkwOWy; ptcz=962a7a1e67ac2406aab3efc0e7ba23345d7fc91ec4ad99ce16b74cf155b9a28d; tvfe_boss_uuid=fa43a63a3a0c6417; pac_uid=0_c3e468bf96299; o_cookie=1249217495; _gcl_au=1.1.1756066116.1624533069; video_guid=04a5728ac01f5a27; video_platform=2; pgv_info=ssid=s1955050180; _qpsvr_localtk=0.11117530483114613; ptui_loginuin=1249217495; main_login=qq; vqq_access_token=49A7132D22745AA0B41DA1D2B95294D2; vqq_appid=101483052; vqq_openid=5C5817CC0F6C93EB19E63E9B261113B2; vqq_vuserid=248126996; vqq_vusession=n_AsIVjAQADnMa8cxkNpQw..; vqq_refresh_token=45BEE4021749E2ECBC59FD5C67732ADD; login_time_init=2021-7-12 9:17:57; uid=79130810; vqq_next_refresh_time=6592; vqq_login_time_init=1626052686; login_time_last=2021-7-12 9:18:5; vversion_name=8.3.95.0; video_bucketid=4; video_omgid=test_jinfuwu_omgid'
+tx_cookie = 'pgv_pvi=9532715008; pgv_si=s6097810432; pgv_pvid=4728985042; RK=jHQZOoi/cy; ptcz=c878ef3196193867079105954a7aa7da301a56cc96c5749f205f2a90a40b592e; tvfe_boss_uuid=5cb4c653f2d41c26; o_cookie=289804037; sd_userid=22151616114020884; sd_cookie_crttime=1616114020884; verifysession=h018f7157744eb699b390b9b9d72b52986f02b1806a52ac44c301ce1b2869cdd03479c7a10fc32b0eda; wsreq_logseq=323089004; video_guid=c29063c8eb85c7a2; video_platform=2; lolqqcomrouteLine=a20210402groovepass; tokenParams=%3Fe_code%3D505452; eas_sid=S1V6X1n7m8R0G1T2y7y1r39917; pgv_info=ssid=s2587555769&pgvReferrer=; _qpsvr_localtk=0.03191865403077143; pac_uid=1_289804037; main_login=qq; vqq_access_token=633DEDBCEF92F784B0D7EDDB4FF8CC23; vqq_appid=101483052; vqq_openid=3CC82F4EC2BF9ABB6F13F59E5FE45C1C; vqq_vuserid=361142255; vqq_refresh_token=A810C28163F80924EAC5A91AEF66BCC2; IED_LOG_INFO=uin*289804037|nick*%u25A1%u25A1%u25A1%20|time*1620562463; idt=1620628220; dnfqqcomrouteLine=a20190228dpl_a20210506sign_a20210506sign_a20210506sign_a20210506sign_a20210506sign_a20210506sign; IED_LOG_INFO2=userUin%3D289804037%26nickName%3D%2525E2%252596%2525A1%2525E2%252596%2525A1%2525E2%252596%2525A1%26nickname%3D%25E2%2596%25A1%25E2%2596%25A1%25E2%2596%25A1%26userLoginTime%3D1620820466%26logtype%3Dqq%26loginType%3Dqq%26uin%3D289804037; login_type=1; wxrefresh_token=; psrf_qqopenid=2B21BBCB9044E5736D2F70591D598DB8; psrf_qqunionid=; euin=owcqNenPoeol; wxopenid=; psrf_qqrefresh_token=AE8F43413B603989A67FC854DA8EDF36; wxunionid=; tmeLoginType=2; psrf_access_token_expiresAt=1628754856; psrf_qqaccess_token=10F2559214A39C6E260C39309A952811; uin=o0289804037; ptui_loginuin=643056365; skey=@XSwUCg80Y; midas_openkey=@XSwUCg80Y; midas_openid=289804037; vqq_next_refresh_time=6600; vqq_vusession=HPZUS0TDuViqRWZNO-90GA..; vqq_login_time_init=1622765860; login_time_last=2021-6-4 8:17:38; uid=85500769'
 auth_refresh_url = 'https://access.video.qq.com/user/auth_refresh?vappid=11059694&vsecret=fdf61a6be0aad57132bc5cdf78ac30145b6cd2c1470b0cfe&type=qq&g_tk=&g_vstk=406154242&g_actk=982078386&callback=jQuery19107263100220876779_1626052698163&_=1626052698164'
 
 # TG配置
@@ -10,7 +10,7 @@ TG_TOKEN = 'xxx'  # TG机器人的TOKEN
 CHAT_ID = 'xxx'  # 推送消息的CHAT_ID
 
 # 新版Server酱配置
-server_key = 'xxxxxx'
+server_key = 'SCU125912Tea3c67d52932a8ee8fbacc30c5a06a675facd045a1968'
 
 # 企业微信配置
 corpid = 'xxx'     # 上面提到的你的企业ID
